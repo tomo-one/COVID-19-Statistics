@@ -9,15 +9,26 @@ Actual, the overview is for the following countries / regions:
 - IT (Italy)
 - ES (Spain)
 - FR (France)
+- UK (United Kingdom)
+- CN (China)
+- IN (India)
+- RU (Russia)
 
-For every country / region a seperate PDF is available. Additional an "All in One" PDF with all these countries / regions.
+The actual stats are stored as an "All in One" under the stats/ directory.
 
-The overview includes the following data and calculations:
-- cases
-- deaths
-- growth rate
-- time until the cases doubled
-- rates compared to the population    
+A description of all fields and data is in progress. 
+
+### Changes and Errata:
+
+[2020-04-14]:
+ - Wrong new cases in the JHU dataset for France (a difference of -6.526).
+
+[2020-04-11]:
+ - Wrong new deaths in the JHU dataset for Germany (a difference of -31).
+ - No seperate countries anymore.
+ - Layout changed and a summary page added. New field "Death Rate (t-10)" added. This means:
+   The death rate is calculated compared to the infected people 10 days ago.
 
 
+<br />
 April 2020 - Tom Gries
